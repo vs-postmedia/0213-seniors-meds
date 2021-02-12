@@ -2,7 +2,7 @@
 #app h1 {
 	color: var(--black);
 	font-family: Shift-BoldItalic, serif;
-	font-size: 2rem;
+	font-size: 1.4rem;
 	margin-bottom: 0.5rem;
 }
 #app h2 {
@@ -59,3 +59,9 @@
 	color: inherit;
 }
 
+@media only screen and (min-width: 500px) {
+    /* Style adjustments for viewports that meet the condition */
+    #app h1 {
+    	font-size: 2rem;
+    }
+}
